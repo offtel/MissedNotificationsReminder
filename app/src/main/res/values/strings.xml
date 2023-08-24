@@ -8,25 +8,24 @@
     <string name="settings_title">Settings</string>
     <string name="settings_subtitle" translatable="false">@string/app_name</string>
     <string name="settings_access_title">Notifications Service Access</string>
-    <string name="settings_battery_optimization">Battery Optimization</string>
-    <string name="settings_permissions">Permissions</string>
-    <string name="settings_access_enabled">The notification service is currently enabled</string>
-    <string name="settings_access_manage">Manage Access</string>
-    <string name="settings_reminder">Reminder Settings</string>
-    <string name="settings_vibration">Vibration</string>
-    <string name="settings_scheduler">Custom Scheduler</string>
-    <string name="settings_sound">Sound</string>
-    <string name="settings_applications_select_title">Applications to monitor
-        for missed notifications</string>
-    <string name="settings_applications_select_button">Select Applications</string>
-    <string name="menu_advanced_settings_visible">Show Advanced Settings</string>
-    <string name="menu_show_logs">Show Logs</string>
-    <string name="menu_rate_app">Rate App</string>
-    <string name="menu_contribute">Contribute</string>
-    <string name="menu_night_mode">Dark Mode</string>
-    <string name="menu_night_mode_follow_system">Follow System</string>
-    <string name="menu_night_yes">Enabled</string>
-    <string name="menu_night_mode_no">Disabled</string>
+    <string name="settings_battery_optimization">Otimização da bateria</string>
+    <string name="settings_permissions">Permissões</string>
+    <string name="settings_access_enabled">O serviço de notificações está avtivo</string>
+    <string name="settings_access_manage">Gerir acessos</string>
+    <string name="settings_reminder">Ajustes do Reminder</string>
+    <string name="settings_vibration">Vibração</string>
+    <string name="settings_scheduler">Agenda personalizada</string>
+    <string name="settings_sound">Som</string>
+    <string name="settings_applications_select_title">Aplicações a monotorizar as notificações</string>
+    <string name="settings_applications_select_button">Selecione as aplicações</string>
+    <string name="menu_advanced_settings_visible">Mostrar ajustes avançados</string>
+    <string name="menu_show_logs">Mostrar registos</string>
+    <string name="menu_rate_app">Classificar aplicação</string>
+    <string name="menu_contribute">Contributos</string>
+    <string name="menu_night_mode">Modo escuro</string>
+    <string name="menu_night_mode_follow_system">Seguir o sistema</string>
+    <string name="menu_night_yes">Activado</string>
+    <string name="menu_night_mode_no">Desactivado</string>
 
     <!-- Permissions settings -->
     <string name="settings_permissions_required">The following permissions are required for the app work: \"%1$s\". Please allow them.</string>
@@ -38,7 +37,7 @@
     Some devices may have additional battery usage limitation settings.
     If you experience issues with the app please check
     <u><a href="https://dontkillmyapp.com/">https://dontkillmyapp.com</a></u>
-    website for possible solution]]></string>
+    website para possiveis soluções]]></string>
     <string name="settings_battery_optimization_enabled">The Android OS optimizes battery usage for the application.
         If you experience problems with the reminder work please disable battery optimization for the "Missed Notification Reminder" application</string>
     <string name="settings_manage_battery_optimization">Manage Battery Optimization</string>
@@ -46,13 +45,13 @@
     <string name="settings_battery_wakelock_enabled">Foreground service is enabled. Use this only if you experience issues with the reminder work. This will keep device ON all the time while reminder interval is scheduled</string>
 
     <!-- Reminder Settings -->
-    <string name="reminder_interval_hint">Reminder Interval (minutes)</string>
-    <string name="reminder_repeats_hint">Reminder Repetitions (max)</string>
-    <string name="reminder_disabled">Disabled</string>
-    <string name="reminder_enabled">Enabled</string>
-    <string name="limit_reminder_repeats_disabled">Reminder will repeat forever</string>
-    <string name="limit_reminder_repeats_enabled">Reminder will repeat limited number of times</string>
-    <string name="create_dismiss_notification_disabled">Do not create extra notification</string>
+    <string name="reminder_interval_hint">Intervalo do Reminder (minutos)</string>
+    <string name="reminder_repeats_hint">Repetiçóes do Reminder (máx)</string>
+    <string name="reminder_disabled">Desactivado</string>
+    <string name="reminder_enabled">Activado</string>
+    <string name="limit_reminder_repeats_disabled">O Reminder não vai parar de repetir</string>
+    <string name="limit_reminder_repeats_enabled">O Reminder vai repetir um numero de vezes</string>
+    <string name="create_dismiss_notification_disabled">Não criar notificações extra</string>
     <string name="create_dismiss_notification_enabled">Create extra notification when reminders are active to allow stopping them without dismissing notification(s) from other apps</string>
     <string name="create_dismiss_notification_immediately_disabled">Create extra notification when the first reminder event occurs</string>
     <string name="create_dismiss_notification_immediately_enabled">Create extra notification immediately after any monitored app have posted notification</string>
@@ -100,27 +99,27 @@
     </string>
 
     <!-- Dismiss notification -->
-    <string name="dismiss_notification_title">Reminder is active</string>
-    <string name="dismiss_notification_text">Dismiss this notification to stop reminders.</string>
-    <string name="dismiss_action">Dismiss</string>
+    <string name="dismiss_notification_title">Reminder está activo</string>
+    <string name="dismiss_notification_text">Descarte esta notificação para parar os lembretes.</string>
+    <string name="dismiss_action">Descartar</string>
     <string name="contribute_action" translatable="false">@string/menu_contribute</string>
     <string name="rate_action" translatable="false">@string/menu_rate_app</string>
 
     <!-- Purchase -->
-    <string name="payment_error_billing_unavailable">Billing unavailable</string>
-    <string name="payment_error_service_unavailable">Service unavailable</string>
-    <string name="payment_error_user_canceled">Purchase canceled</string>
-    <string name="payment_error_purchase_pending">The purchase is pending!</string>
-    <string name="contribution_title">Support development</string>
+    <string name="payment_error_billing_unavailable">BFacturação não disponível</string>
+    <string name="payment_error_service_unavailable">Serviço não disponível</string>
+    <string name="payment_error_user_canceled">Compra canceleda</string>
+    <string name="payment_error_purchase_pending">A compra está pendente!</string>
+    <string name="contribution_title">Apoie o desenvolvimento</string>
     <string name="contribution_contribute_options"><![CDATA[
-    You may contribute either via creating an issue or pull request in the project
+    Pode contribuir ou criando pedidos ou detectando melhorias a implementar no projecto
     <u><a href="https://github.com/httpdispatch/MissedNotificationsReminder">github repository</a></u>
     <br/><br/>
-    Or you may purchase some of the items to support development. <b>Note</b> that purchasing any item <b>doesn\'t unlock</b> any features yet]]></string>
-    <string name="contribution_action_purchase">Buy</string>
-    <string name="payment_loading_purchase_items">Loading…</string>
-    <string name="payment_purchasing">Purchasing…</string>
-    <string name="payment_purchase_done">Thanks for support!</string>
-    <string name="payment_contributions">Your contributions: %s</string>
+    Ou pode comprar alguns itens para apoiar o desenvolvimento. <b>Note</b> que comprar alguns itens ainda  purchasing any item <b>não desbloqueia</b> qualquer nova funcionmalidade]]></string>
+    <string name="contribution_action_purchase">Comprar</string>
+    <string name="payment_loading_purchase_items">A carregar…</string>
+    <string name="payment_purchasing">A comprar…</string>
+    <string name="payment_purchase_done">Obrigado pelo apoio!</string>
+    <string name="payment_contributions">Suas contribuições: %s</string>
 
 </resources>
